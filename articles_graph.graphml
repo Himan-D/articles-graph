@@ -1,0 +1,1582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="type" attr.type="string"/>
+<key id="d9" for="node" attr.name="published" attr.type="string"/>
+<key id="d8" for="node" attr.name="url" attr.type="string"/>
+<key id="d7" for="node" attr.name="title" attr.type="string"/>
+<key id="d6" for="node" attr.name="date" attr.type="string"/>
+<key id="d5" for="node" attr.name="role" attr.type="string"/>
+<key id="d4" for="node" attr.name="party" attr.type="string"/>
+<key id="d3" for="node" attr.name="state" attr.type="string"/>
+<key id="d2" for="node" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="name" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="loc_Delhi">
+  <data key="d0">Location</data>
+  <data key="d1">Delhi</data>
+  <data key="d2">City</data>
+  <data key="d3">Delhi</data>
+</node>
+<node id="loc_Mumbai">
+  <data key="d0">Location</data>
+  <data key="d1">Mumbai</data>
+  <data key="d2">City</data>
+  <data key="d3">Maharashtra</data>
+</node>
+<node id="loc_Chennai">
+  <data key="d0">Location</data>
+  <data key="d1">Chennai</data>
+  <data key="d2">City</data>
+  <data key="d3">Tamil Nadu</data>
+</node>
+<node id="loc_Hyderabad">
+  <data key="d0">Location</data>
+  <data key="d1">Hyderabad</data>
+  <data key="d2">City</data>
+  <data key="d3">Telangana</data>
+</node>
+<node id="loc_Kolkata">
+  <data key="d0">Location</data>
+  <data key="d1">Kolkata</data>
+  <data key="d2">City</data>
+  <data key="d3">West Bengal</data>
+</node>
+<node id="loc_Bangalore">
+  <data key="d0">Location</data>
+  <data key="d1">Bangalore</data>
+  <data key="d2">City</data>
+  <data key="d3">Karnataka</data>
+</node>
+<node id="loc_Bihar">
+  <data key="d0">Location</data>
+  <data key="d1">Bihar</data>
+  <data key="d2">State</data>
+</node>
+<node id="loc_Kerala">
+  <data key="d0">Location</data>
+  <data key="d1">Kerala</data>
+  <data key="d2">State</data>
+</node>
+<node id="loc_Tamil Nadu">
+  <data key="d0">Location</data>
+  <data key="d1">Tamil Nadu</data>
+  <data key="d2">State</data>
+</node>
+<node id="loc_West Bengal">
+  <data key="d0">Location</data>
+  <data key="d1">West Bengal</data>
+  <data key="d2">State</data>
+</node>
+<node id="loc_Assam">
+  <data key="d0">Location</data>
+  <data key="d1">Assam</data>
+  <data key="d2">State</data>
+</node>
+<node id="loc_Puducherry">
+  <data key="d0">Location</data>
+  <data key="d1">Puducherry</data>
+  <data key="d2">Union Territory</data>
+</node>
+<node id="person_Rahul_Gandhi">
+  <data key="d0">Person</data>
+  <data key="d1">Rahul Gandhi</data>
+  <data key="d4">Congress</data>
+  <data key="d5">LoP</data>
+</node>
+<node id="person_Mamata_Banerjee">
+  <data key="d0">Person</data>
+  <data key="d1">Mamata Banerjee</data>
+  <data key="d4">TMC</data>
+  <data key="d5">CM</data>
+</node>
+<node id="person_Nitish_Kumar">
+  <data key="d0">Person</data>
+  <data key="d1">Nitish Kumar</data>
+  <data key="d4">JD(U)</data>
+  <data key="d5">CM</data>
+</node>
+<node id="person_Himanta_Biswa_Sarma">
+  <data key="d0">Person</data>
+  <data key="d1">Himanta Biswa Sarma</data>
+  <data key="d4">BJP</data>
+  <data key="d5">CM</data>
+</node>
+<node id="person_Leander_Paes">
+  <data key="d0">Person</data>
+  <data key="d1">Leander Paes</data>
+  <data key="d4">BJP</data>
+  <data key="d5">Sportsperson</data>
+</node>
+<node id="org_BJP">
+  <data key="d0">Organization</data>
+  <data key="d1">BJP</data>
+  <data key="d2">Political Party</data>
+</node>
+<node id="org_Congress">
+  <data key="d0">Organization</data>
+  <data key="d1">Congress</data>
+  <data key="d2">Political Party</data>
+</node>
+<node id="org_JDU">
+  <data key="d0">Organization</data>
+  <data key="d1">JD(U)</data>
+  <data key="d2">Political Party</data>
+</node>
+<node id="org_TMC">
+  <data key="d0">Organization</data>
+  <data key="d1">TMC</data>
+  <data key="d2">Political Party</data>
+</node>
+<node id="org_IMD">
+  <data key="d0">Organization</data>
+  <data key="d1">IMD</data>
+  <data key="d2">Government Department</data>
+</node>
+<node id="org_Election_Commission">
+  <data key="d0">Organization</data>
+  <data key="d1">Election Commission</data>
+  <data key="d2">Constitutional Body</data>
+</node>
+<node id="topic_Weather">
+  <data key="d0">Topic</data>
+  <data key="d1">Weather</data>
+</node>
+<node id="topic_Elections">
+  <data key="d0">Topic</data>
+  <data key="d1">Elections</data>
+</node>
+<node id="topic_Gold_Prices">
+  <data key="d0">Topic</data>
+  <data key="d1">Gold Prices</data>
+</node>
+<node id="topic_Cricket">
+  <data key="d0">Topic</data>
+  <data key="d1">Cricket</data>
+</node>
+<node id="topic_Stampede">
+  <data key="d0">Topic</data>
+  <data key="d1">Stampede</data>
+</node>
+<node id="topic_Politics">
+  <data key="d0">Topic</data>
+  <data key="d1">Politics</data>
+</node>
+<node id="event_Assembly_Elections_2026">
+  <data key="d0">Event</data>
+  <data key="d1">Assembly Elections 2026</data>
+  <data key="d2">Election</data>
+  <data key="d6">2026-04-09</data>
+</node>
+<node id="event_Nalanda_Stampede">
+  <data key="d0">Event</data>
+  <data key="d1">Nalanda Stampede</data>
+  <data key="d2">Tragedy</data>
+  <data key="d6">2026-03-31</data>
+</node>
+<node id="article_0">
+  <data key="d0">Article</data>
+  <data key="d7">IMD issues rain and thunderstorm alerts for Delhi, Chennai, and Hyderabad: See the full city-wise fo</data>
+  <data key="d8">https://indianexpress.com/article/india/weather-forecast-today-light-rain-delhi-ncr-chennai-mumbai-10610916/</data>
+  <data key="d9">2026-03-31T07:37:46+00:00</data>
+</node>
+<node id="article_1">
+  <data key="d0">Article</data>
+  <data key="d7">Bihar Nalanda Temple Stampede Live Updates: Rs 8 lakh ex gratia for kin of each deceased after 8 kil</data>
+  <data key="d8">https://indianexpress.com/article/india/nalanda-stampede-live-updates-deaths-injured-bihar-temple-10610960/</data>
+  <data key="d9">2026-03-31T06:44:40+00:00</data>
+</node>
+<node id="article_2">
+  <data key="d0">Article</data>
+  <data key="d7">Gold Rate Today, March 31: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata </data>
+  <data key="d8">https://indianexpress.com/article/india/gold-rate-today-march-31-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10610812/</data>
+  <data key="d9">2026-03-31T05:18:01+00:00</data>
+</node>
+<node id="topic_Gold"/>
+<node id="article_3">
+  <data key="d0">Article</data>
+  <data key="d7">Assembly Elections 2026 Live Updates: Rahul Gandhi promises free bus travel, Rs 1,000 aid for women </data>
+  <data key="d8">https://indianexpress.com/article/india/assembly-elections-2026-live-polling-dates-voter-count-latest-updates-10610667/</data>
+  <data key="d9">2026-03-31T04:26:42+00:00</data>
+</node>
+<node id="topic_Election"/>
+<node id="article_4">
+  <data key="d0">Article</data>
+  <data key="d7">As Nitish Kumar’s Rajya Sabha move triggers churn in Bihar, the big question: Who succeeds him?</data>
+  <data key="d8">https://indianexpress.com/article/india/as-nitish-kumars-rajya-sabha-move-triggers-churn-in-bihar-the-big-question-who-succeeds-him-10610345/</data>
+  <data key="d9">2026-03-31T00:10:48+00:00</data>
+</node>
+<node id="article_5">
+  <data key="d0">Article</data>
+  <data key="d7">Over 2.37 lakh electors to vote from home: Election Commission</data>
+  <data key="d8">https://indianexpress.com/article/india/over-2-37-lakh-electors-to-vote-from-home-election-commission-10610422/</data>
+  <data key="d9">2026-03-31T00:07:34+00:00</data>
+</node>
+<node id="article_6">
+  <data key="d0">Article</data>
+  <data key="d7">Not road rage, previous night’s bar brawl led to shootout that killed retired Brigadier on morning w</data>
+  <data key="d8">https://indianexpress.com/article/india/not-road-rage-previous-nights-bar-brawl-led-to-shootout-that-killed-retired-brigadier-on-morning-walk-dehradun-police-10610360/</data>
+  <data key="d9">2026-03-31T00:02:46+00:00</data>
+</node>
+<node id="article_7">
+  <data key="d0">Article</data>
+  <data key="d7">A deadline, encounters, surrenders: The 2 years that dismantled Chhattisgarh’s Maoist bastions</data>
+  <data key="d8">https://indianexpress.com/article/india/a-deadline-encounters-surrenders-the-2-years-that-dismantled-chhattisgarhs-maoist-bastions-10610359/</data>
+  <data key="d9">2026-03-31T00:00:20+00:00</data>
+</node>
+<node id="article_8">
+  <data key="d0">Article</data>
+  <data key="d7">Some states misusing OBC quota by including Muslims: Rajya Sabha MP K Laxman</data>
+  <data key="d8">https://indianexpress.com/article/india/some-states-misusing-obc-quota-by-including-muslims-rajya-sabha-mp-k-laxman-10610443/</data>
+  <data key="d9">2026-03-30T23:55:39+00:00</data>
+</node>
+<node id="article_9">
+  <data key="d0">Article</data>
+  <data key="d7">‘Can’t defeat ideology by force’: Opposition targets Govt on extremism</data>
+  <data key="d8">https://indianexpress.com/article/india/cant-defeat-ideology-by-force-opposition-targets-govt-on-extremism-10610438/</data>
+  <data key="d9">2026-03-30T23:50:50+00:00</data>
+</node>
+<node id="article_10">
+  <data key="d0">Article</data>
+  <data key="d7">‘Slow limp back to normal life’: Sonam Wangchuk returns to work in Ladakh</data>
+  <data key="d8">https://indianexpress.com/article/india/slow-limp-back-to-normal-life-sonam-wangchuk-returns-to-work-in-ladakh-10610361/</data>
+  <data key="d9">2026-03-30T23:50:06+00:00</data>
+</node>
+<node id="article_11">
+  <data key="d0">Article</data>
+  <data key="d7">Questions emerge as Centre strips administrative, financial powers of NIT Kurukshetra Director</data>
+  <data key="d8">https://indianexpress.com/article/india/govt-curtails-powers-of-nit-kurukshetra-director-sets-up-review-panel-10610429/</data>
+  <data key="d9">2026-03-30T23:39:10+00:00</data>
+</node>
+<node id="article_12">
+  <data key="d0">Article</data>
+  <data key="d7">Jaishankar meets Russian minister, discusses West Asia war</data>
+  <data key="d8">https://indianexpress.com/article/india/jaishankar-meets-russian-minister-discusses-west-asia-war-10610416/</data>
+  <data key="d9">2026-03-30T23:33:50+00:00</data>
+</node>
+<node id="article_13">
+  <data key="d0">Article</data>
+  <data key="d7">Why is PM silent on Sabarimala gold theft? Rahul Gandhi hints at CPM-BJP nexus</data>
+  <data key="d8">https://indianexpress.com/article/india/why-is-pm-silent-on-sabarimala-gold-theft-rahul-gandhi-hints-at-cpm-bjp-nexus-10610421/</data>
+  <data key="d9">2026-03-30T23:29:44+00:00</data>
+</node>
+<node id="article_14">
+  <data key="d0">Article</data>
+  <data key="d7">ED restitutes Rs 15,582-crore worth assets in PACL ‘fraud’ case</data>
+  <data key="d8">https://indianexpress.com/article/india/ed-restitutes-rs-15582-crore-worth-assets-in-pacl-fraud-case-10610409/</data>
+  <data key="d9">2026-03-30T23:08:27+00:00</data>
+</node>
+<node id="article_15">
+  <data key="d0">Article</data>
+  <data key="d7">Income Tax Rule Changes from April 1: How will you be impacted? 5 key points</data>
+  <data key="d8">https://indianexpress.com/article/india/income-tax-act-2025-changes-april-1-tax-year-forms-itr-filing-guide-10610111/</data>
+  <data key="d9">2026-03-30T16:48:14+00:00</data>
+</node>
+<node id="article_16">
+  <data key="d0">Article</data>
+  <data key="d7">CAPF Bill weakens legislature, ignores judiciary, against federal structure: Opposition in Rajya Sab</data>
+  <data key="d8">https://indianexpress.com/article/india/capf-bill-weakens-legislature-judiciary-federal-structure-oppn-rajya-sabha-10610114/</data>
+  <data key="d9">2026-03-30T15:41:58+00:00</data>
+</node>
+<node id="article_17">
+  <data key="d0">Article</data>
+  <data key="d7">Maoists ‘more or less wiped out’ from Bastar, says Amit Shah; task not over: Opposition</data>
+  <data key="d8">https://indianexpress.com/article/india/lok-sabha-maoists-wiped-bastar-shah-day-before-deadline-ends-10610102/</data>
+  <data key="d9">2026-03-30T15:41:13+00:00</data>
+</node>
+<node id="article_18">
+  <data key="d0">Article</data>
+  <data key="d7">‘Unworthy, uninformed’: BJP’s Nishikant Dubey comes under fire from party colleague Baijayant Panda </data>
+  <data key="d8">https://indianexpress.com/article/india/bjp-mp-nishikant-dubey-biju-patnaik-cia-remarks-patnaik-reaction-10610062/</data>
+  <data key="d9">2026-03-30T15:01:11+00:00</data>
+</node>
+<node id="article_19">
+  <data key="d0">Article</data>
+  <data key="d7">Automatic train protection system on Delhi-Mumbai route: Kavach 4.0 commissioned on Vadodara-Nagda s</data>
+  <data key="d8">https://indianexpress.com/article/india/automatic-train-protection-system-on-delhi-mumbai-route-kavach-4-0-commissioned-on-vadodara-nagda-section-10609968/</data>
+  <data key="d9">2026-03-30T14:27:10+00:00</data>
+</node>
+<node id="article_20">
+  <data key="d0">Article</data>
+  <data key="d7">‘Thought he was having a heart attack’: Friend recalls moment retired Brigadier was hit by stray bul</data>
+  <data key="d8">https://indianexpress.com/article/india/dehradun-retired-brigadier-bullet-friend-recalls-moment-10610008/</data>
+  <data key="d9">2026-03-30T14:22:16+00:00</data>
+</node>
+<node id="article_21">
+  <data key="d0">Article</data>
+  <data key="d7">Amit Shah attacks Oppn for comparing Bhagat Singh to Naxals, blames Left-wing ideology behind its sp</data>
+  <data key="d8">https://indianexpress.com/article/india/amit-shah-lok-sabha-naxalism-bastar-chhattisgarh-almost-ended-2026-deadline-10609905/</data>
+  <data key="d9">2026-03-30T13:46:17+00:00</data>
+</node>
+<node id="article_22">
+  <data key="d0">Article</data>
+  <data key="d7">How NC’s Mubarik Gul foresaw Article 370 abrogation — ‘He stood up, banged the table and said it wil</data>
+  <data key="d8">https://indianexpress.com/article/india/mubarik-gul-foresaw-article-370-abrogation-omar-abdullah-recalls-assembly-10609949/</data>
+  <data key="d9">2026-03-30T13:42:51+00:00</data>
+</node>
+<node id="article_23">
+  <data key="d0">Article</data>
+  <data key="d7">From ticket cancellation refund rules to new trains: Top 10 Indian Railways changes in FY27 you need</data>
+  <data key="d8">https://indianexpress.com/article/india/from-ticket-cancellation-refund-rules-to-new-trains-top-10-indian-railways-changes-in-fy27-you-need-to-know-10609723/</data>
+  <data key="d9">2026-03-30T13:29:25+00:00</data>
+</node>
+<node id="article_24">
+  <data key="d0">Article</data>
+  <data key="d7">The alliance that broke: How a disputed accord is reshaping tribal politics in Tripura</data>
+  <data key="d8">https://indianexpress.com/article/india/tripura-tiprasa-accord-debbarma-10609882/</data>
+  <data key="d9">2026-03-30T13:02:41+00:00</data>
+</node>
+<node id="article_25">
+  <data key="d0">Article</data>
+  <data key="d7">‘Colleagues and families had to endure emotional trauma… children had to leave university mid-term’:</data>
+  <data key="d8">https://indianexpress.com/article/india/sanjay-verma-canada-allegations-nijjar-case-10609785/</data>
+  <data key="d9">2026-03-30T12:17:21+00:00</data>
+</node>
+<node id="article_26">
+  <data key="d0">Article</data>
+  <data key="d7">After B28, Railways plans ‘B35 bullet train’ for high speed corridor: All about the upgrade</data>
+  <data key="d8">https://indianexpress.com/article/india/after-b28-railways-plans-b35-bullet-train-for-high-speed-corridor-all-about-the-upgrade-10609571/</data>
+  <data key="d9">2026-03-30T11:27:19+00:00</data>
+</node>
+<node id="article_27">
+  <data key="d0">Article</data>
+  <data key="d7">Home ministry’s AI vision: Predictive policing, dark web monitoring, and end of mule accounts</data>
+  <data key="d8">https://indianexpress.com/article/india/mha-india-internal-security-ai-integration-cybercrime-i4c-surakshini-10609671/</data>
+  <data key="d9">2026-03-30T11:17:10+00:00</data>
+</node>
+<node id="article_28">
+  <data key="d0">Article</data>
+  <data key="d7">Procession turns deadly in Jharkhand, 21-year-old killed in knife stunt mishap</data>
+  <data key="d8">https://indianexpress.com/article/india/jharkhand-ram-navami-procession-death-knife-stunt-10609681/</data>
+  <data key="d9">2026-03-30T11:14:32+00:00</data>
+</node>
+<node id="article_29">
+  <data key="d0">Article</data>
+  <data key="d7">Lok Sabha passes insolvency law amendments, FM Sitharaman says it will help save viable businesses</data>
+  <data key="d8">https://indianexpress.com/article/india/lok-sabha-passes-ibc-amendment-bill-2025-nirmala-sitharaman-10609576/</data>
+  <data key="d9">2026-03-30T10:55:56+00:00</data>
+</node>
+<node id="article_30">
+  <data key="d0">Article</data>
+  <data key="d7">7 new bullet train projects in India: What Parliamentary panel said on land acquisition</data>
+  <data key="d8">https://indianexpress.com/article/india/7-bullet-train-project-in-india-what-parliamentary-panel-said-on-land-acquisition-10609388/</data>
+  <data key="d9">2026-03-30T10:08:21+00:00</data>
+</node>
+<node id="article_31">
+  <data key="d0">Article</data>
+  <data key="d7">Fractured bones to amputations: How Kuno’s now-thriving cheetah programme was kept alive</data>
+  <data key="d8">https://indianexpress.com/article/india/fractured-bones-amputations-kuno-cheetah-programme-alive-10609525/</data>
+  <data key="d9">2026-03-30T10:03:23+00:00</data>
+</node>
+<node id="article_32">
+  <data key="d0">Article</data>
+  <data key="d7">‘He needs mental health doctors’ attention’: Naveen Patnaik slams Nishikant Dubey for his comment on</data>
+  <data key="d8">https://indianexpress.com/article/india/patnaik-dubey-cia-link-controversy-charbatia-10609447/</data>
+  <data key="d9">2026-03-30T09:20:09+00:00</data>
+</node>
+<node id="article_33">
+  <data key="d0">Article</data>
+  <data key="d7">Amid rising demand, India’s 42nd Vande Bharat train to run with 20-coaches for another month</data>
+  <data key="d8">https://indianexpress.com/article/india/amid-rising-demand-indias-42nd-vande-bharat-train-to-run-with-20-coaches-for-another-month-10608504/</data>
+  <data key="d9">2026-03-30T08:39:11+00:00</data>
+</node>
+<node id="article_34">
+  <data key="d0">Article</data>
+  <data key="d7">‘Malicious, repeated violations of Model Code of Conduct’: BJP asks EC to debar Mamata Banerjee</data>
+  <data key="d8">https://indianexpress.com/article/india/violations-of-model-code-of-conduct-bjp-asks-ec-to-debar-mamata-banerjee-10609323/</data>
+  <data key="d9">2026-03-30T08:13:36+00:00</data>
+</node>
+<node id="article_35">
+  <data key="d0">Article</data>
+  <data key="d7">Caste enumeration in second phase of Census exercise, says Census Commissioner</data>
+  <data key="d8">https://indianexpress.com/article/india/census-2027-launch-date-caste-enumeration-phase-2-digital-process-10609307/</data>
+  <data key="d9">2026-03-30T08:06:28+00:00</data>
+</node>
+<node id="article_36">
+  <data key="d0">Article</data>
+  <data key="d7">Retired brigadier out on morning walk killed by ‘stray bullet’ in Dehradun amid ‘road rage’ shootout</data>
+  <data key="d8">https://indianexpress.com/article/india/retired-brigadier-killed-stray-bullet-dehradun-road-rage-shootout-10609240/</data>
+  <data key="d9">2026-03-30T07:29:54+00:00</data>
+</node>
+<node id="article_37">
+  <data key="d0">Article</data>
+  <data key="d7">8 Indians killed in West Asia conflict so far; Kuwait desalination plant worker latest victim</data>
+  <data key="d8">https://indianexpress.com/article/india/8-indians-killed-in-west-asia-conflict-so-far-kuwait-desalination-plant-worker-latest-victim-10609066/</data>
+  <data key="d9">2026-03-30T06:02:28+00:00</data>
+</node>
+<node id="article_38">
+  <data key="d0">Article</data>
+  <data key="d7">Nitish Kumar steps down as Bihar legislator, remains Chief Minister for now</data>
+  <data key="d8">https://indianexpress.com/article/india/bihar-cm-nitish-kumar-resigns-mlc-from-state-assembly-10609018/</data>
+  <data key="d9">2026-03-30T05:20:54+00:00</data>
+</node>
+<node id="article_39">
+  <data key="d0">Article</data>
+  <data key="d7">Gold Rate Today, March 30: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata </data>
+  <data key="d8">https://indianexpress.com/article/india/gold-rate-today-march-30-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10608987/</data>
+  <data key="d9">2026-03-30T05:01:01+00:00</data>
+</node>
+<node id="article_40">
+  <data key="d0">Article</data>
+  <data key="d7">‘Stable’ live-in couples to be considered married in Census 2027</data>
+  <data key="d8">https://indianexpress.com/article/india/stable-live-in-couples-considered-married-in-census-2027-10608896/</data>
+  <data key="d9">2026-03-30T04:51:42+00:00</data>
+</node>
+<node id="article_41">
+  <data key="d0">Article</data>
+  <data key="d7">Mahavir Jayanti 2026 Bank Holiday: Are banks open or closed on March 30–31 in India? City-wise list </data>
+  <data key="d8">https://indianexpress.com/article/india/mahavir-jayanti-2026-bank-holiday-are-banks-open-or-closed-march-30-31-10608803/</data>
+  <data key="d9">2026-03-30T02:50:15+00:00</data>
+</node>
+<node id="article_42">
+  <data key="d0">Article</data>
+  <data key="d7">Detonators continue to top list of stolen explosives, shows RTI data</data>
+  <data key="d8">https://indianexpress.com/article/india/detonators-continue-to-top-list-of-stolen-explosives-shows-rti-data-10608649/</data>
+  <data key="d9">2026-03-30T01:50:30+00:00</data>
+</node>
+<node id="article_43">
+  <data key="d0">Article</data>
+  <data key="d7">West Bengal’s migrant footprint: Why they leave their homes</data>
+  <data key="d8">https://indianexpress.com/article/india/west-bengals-migrant-footprint-why-they-leave-their-homes-10608659/</data>
+  <data key="d9">2026-03-30T01:37:02+00:00</data>
+</node>
+<node id="article_44">
+  <data key="d0">Article</data>
+  <data key="d7">Nishikant Dubey’s CIA ‘link’ remarks on Biju Patnaik trigger storm, BJD MP quits parliamentary panel</data>
+  <data key="d8">https://indianexpress.com/article/india/nishikant-dubeys-cia-link-remarks-on-biju-patnaik-trigger-storm-bjd-mp-quits-parliamentary-panel-10608546/</data>
+  <data key="d9">2026-03-30T00:25:51+00:00</data>
+</node>
+<node id="article_45">
+  <data key="d0">Article</data>
+  <data key="d7">‘Justice for Zubeen in 100 days’ among Congress’s ‘five guarantees’ for Assam</data>
+  <data key="d8">https://indianexpress.com/article/india/justice-for-zubeen-in-100-days-among-congresss-five-guarantees-for-assam-10608543/</data>
+  <data key="d9">2026-03-30T00:15:55+00:00</data>
+</node>
+<node id="article_46">
+  <data key="d0">Article</data>
+  <data key="d7">Cutting through Maoist heartland: Over last 15 months, remote Chhattisgarh villages got string of ro</data>
+  <data key="d8">https://indianexpress.com/article/india/cutting-through-maoist-heartland-over-last-15-months-remote-chhattisgarh-villages-got-string-of-roads-bridges-10608597/</data>
+  <data key="d9">2026-03-30T00:05:10+00:00</data>
+</node>
+<node id="article_47">
+  <data key="d0">Article</data>
+  <data key="d7">War lessons for military: Procure anti-drone systems, integrate them with legacy weapon system to cr</data>
+  <data key="d8">https://indianexpress.com/article/india/war-lessons-for-military-rethinking-air-defence-countering-drones-to-targets-10608606/</data>
+  <data key="d9">2026-03-30T00:00:53+00:00</data>
+</node>
+<node id="article_48">
+  <data key="d0">Article</data>
+  <data key="d7">Canada audit flags high approval rates for Indian student visas amid fraud concerns</data>
+  <data key="d8">https://indianexpress.com/article/india/canada-audit-flags-high-approval-rates-for-indian-student-visas-amid-fraud-concerns-10608623/</data>
+  <data key="d9">2026-03-30T00:00:31+00:00</data>
+</node>
+<node id="article_49">
+  <data key="d0">Article</data>
+  <data key="d7">Administrative hub of Iron Age kingdom? ASI dig at Bihar’s Balirajgarh seeks answers on ancient Mith</data>
+  <data key="d8">https://indianexpress.com/article/india/administrative-hub-of-iron-age-kingdom-asi-dig-at-bihars-balirajgarh-seeks-answers-on-ancient-mithila-history-10608595/</data>
+  <data key="d9">2026-03-30T00:00:24+00:00</data>
+</node>
+<node id="org_JD_U"/>
+<edge source="person_Rahul_Gandhi" target="org_Congress" id="0">
+  <data key="d10">AFFILIATED_WITH</data>
+</edge>
+<edge source="person_Mamata_Banerjee" target="org_TMC" id="0">
+  <data key="d10">AFFILIATED_WITH</data>
+</edge>
+<edge source="person_Nitish_Kumar" target="org_JD_U" id="0">
+  <data key="d10">AFFILIATED_WITH</data>
+</edge>
+<edge source="person_Himanta_Biswa_Sarma" target="org_BJP" id="0">
+  <data key="d10">AFFILIATED_WITH</data>
+</edge>
+<edge source="person_Leander_Paes" target="org_BJP" id="0">
+  <data key="d10">AFFILIATED_WITH</data>
+</edge>
+<edge source="event_Nalanda_Stampede" target="loc_Bihar" id="0">
+  <data key="d10">HAPPENED_IN</data>
+</edge>
+<edge source="article_0" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_0" target="loc_Tamil Nadu" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="person_Nitish_Kumar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_1" target="topic_Stampede" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_2" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_2" target="topic_Gold" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_3" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Tamil Nadu" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_West Bengal" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="loc_Assam" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="person_Mamata_Banerjee" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="person_Himanta_Biswa_Sarma" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_3" target="topic_Election" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_4" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_4" target="person_Nitish_Kumar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="loc_Assam" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_5" target="topic_Election" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_6" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_6" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_7" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_Tamil Nadu" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_8" target="loc_West Bengal" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_9" target="person_Nitish_Kumar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_10" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_11" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_12" target="person_Nitish_Kumar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_13" target="topic_Gold" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_14" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_14" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_14" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_14" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_14" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_14" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_15" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_16" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_17" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_18" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_19" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_20" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_21" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_22" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_23" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_24" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_25" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_26" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_27" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_28" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_29" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_30" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_31" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_32" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_33" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="loc_West Bengal" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_34" target="person_Mamata_Banerjee" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_35" target="loc_West Bengal" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_36" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_37" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_37" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_37" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_37" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_37" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_38" target="person_Nitish_Kumar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_39" target="topic_Gold" id="0">
+  <data key="d10">ABOUT</data>
+</edge>
+<edge source="article_40" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="loc_Kerala" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_40" target="person_Rahul_Gandhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_41" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_42" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_43" target="loc_West Bengal" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_44" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="loc_Assam" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_45" target="person_Himanta_Biswa_Sarma" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_46" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_46" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_47" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_48" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Delhi" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Mumbai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Chennai" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Hyderabad" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Kolkata" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Bangalore" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+<edge source="article_49" target="loc_Bihar" id="0">
+  <data key="d10">MENTIONS</data>
+</edge>
+</graph></graphml>
